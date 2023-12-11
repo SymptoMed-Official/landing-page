@@ -1,0 +1,105 @@
+@use 'breakpoints' as *;
+
+:root {
+  // Sizes
+  --size-9xl: 60px;
+  --size-8xl: 48px;
+  --size-7xl: 45px;
+  --size-6xl: 36px;
+  --size-5xl: 32px;
+  --size-4xl: 30px;
+  --size-3xl: 28px;
+  --size-2xl: 24px;
+  --size-xl: 20px;
+  --size-lg: 18px;
+  --size-base: 16px;
+  --size-sm: 14px;
+  --size-xs: 12px;
+
+  // Headings
+  --size-heading-1: var(--size-6xl);
+  --size-heading-2: var(--size-6xl);
+  --size-heading-3: var(--size-2xl);
+  --size-heading-4: var(--size-sm);
+  --size-heading-5: var(--size-xs);
+
+  // Letter spacings
+  --letter-spacing-1: -1.75px;
+  --letter-spacing-2: 0.5%;
+
+  // Line heights
+  --line-height-1: var(--size-7xl);
+  --line-height-2: var(--size-5xl);
+  --line-height-3: var(--size-2xl);
+  --line-height-4: var(calc(var(--size-xl) + 2px));
+  --line-height-5: var(--size-xl);
+  --line-height-6: var(--size-base);
+  --line-height-7: var(--size-sm);
+
+  // Breakpoints
+  @include breakpoint('tablet') {
+    --size-heading-1: var(--size-8xl);
+    --size-heading-3: var(--size-2xl);
+    --size-heading-4: var(--size-base);
+    --size-heading-5: var(--size-sm);
+
+    --line-height-1: var(--size-7xl);
+  }
+
+  @include breakpoint('desktop') {
+    --size-heading-1: var(--size-9xl);
+    --size-heading-2: var(--size-8xl);
+    --size-heading-3: var(--size-4xl);
+
+    --line-height-1: var(--size-9xl);
+    --line-height-2: calc(var(--size-6xl) + 4px);
+  }
+}
+
+@mixin heading1 {
+  font-weight: 700;
+  font-size: var(--size-heading-1);
+  letter-spacing: var(--letter-spacing-1);
+  line-height: var(--line-height-1);
+
+  @include breakpoint('tablet') {
+    line-height: var(--size-9xl);
+  }
+
+  @include breakpoint('desktop') {
+    line-height: 1.2;
+  }
+}
+
+@mixin heading2 {
+  font-weight: 700;
+  font-size: var(--size-heading-2);
+  letter-spacing: var(--letter-spacing-1);
+  line-height: var(--line-height-1);
+}
+
+@mixin heading3 {
+  font-weight: 600;
+  font-size: var(--size-heading-3);
+  line-height: var(--line-height-2);
+}
+
+@mixin heading4 {
+  font-weight: 600;
+  font-size: var(--size-heading-4);
+}
+
+@mixin heading5 {
+  font-weight: 600;
+  font-size: var(--size-heading-5);
+}
+
+@mixin text-md {
+  font-size: var(--size-lg);
+  line-height: var(--size-3xl);
+}
+
+@mixin text-base {
+  font-size: var(--size-base);
+  line-height: calc(var(--size-xl) + 2px);
+}
