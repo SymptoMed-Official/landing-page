@@ -73,3 +73,11 @@ function expandStaffCardIndex(n) {
 
   teamStaffs[staffCardExpandedIndex].classList.add('active');
 }
+
+function showAlert() {
+  Swal.fire({
+      title: 'Halaman akan segera hadir!',
+      icon: 'info',
+      confirmButtonText: 'Ok'
+  });
+}
