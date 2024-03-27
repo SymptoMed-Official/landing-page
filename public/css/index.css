@@ -269,7 +269,7 @@ h5 {
 }
 .header__links-container {
   display: grid;
-  grid-template-columns: repeat(4, auto);
+  grid-template-columns: repeat(5, auto);
   gap: 8px;
 }
 .header__links-container a {
@@ -1252,4 +1252,9 @@ h5 {
 .footer__links-group a {
   font-size: var(--size-base);
   line-height: calc(var(--size-xl) + 2px);
+}
+
+ol {
+  padding-left: 20px; /* Adjust the value as needed */
+  margin-left: 0px;   /* Adjust the value as needed */
 }
