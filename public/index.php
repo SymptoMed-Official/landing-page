@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" type="image/x-icon" href="<?=base_url()?>/public/public/assets/app.png">
+    <link rel="shortcut icon" type="image/x-icon" href="<?=base_url()?>/public/landing-page/public/assets/app.png">
     <meta name="author" content="SymptoMed" />
     <meta
       name="description"
@@ -14,7 +14,7 @@
       name="keywords"
       content="SymptoMed, Med, Symptom, Symptomed, symptomed, symptomed app, symptomed aplikasi, healthcare, kesehatan, aplikasi, mobile, android, google play, play store, google, play, store, artificial intelligence, AI, kecerdasan buatan, indonesia, indonesia, indonesia, indonesia, personal healthcare, your personal healthcare, solution, your personal healthcare solution, symptomed.id"
     />
-    <link rel="stylesheet" href="<?=base_url()?>/public/public/css/index.css" />
+    <link rel="stylesheet" href="<?=base_url()?>/public/landing-page/public/css/index.css" />
     <title>SymptoMed</title>
   </head>
   <body>
@@ -25,7 +25,7 @@
           <!-- Logo -->
           <a href="#">
             <img
-              src="<?=base_url()?>/public/public/assets/logo-company.png"
+              src="<?=base_url()?>/public/landing-page/public/assets/logo-company.png"
               alt="SymptoMed logo"
               class="header__logo"
             />
@@ -41,7 +41,7 @@
               <li>
                 <a href="https://play.google.com/store/apps/details?id=com.symptomed.symptomed" class="header__play-store">
                   <img
-                    src="<?=base_url()?>/public/public/assets/cta-google-play-color.svg"
+                    src="<?=base_url()?>/public/landing-page/public/assets/cta-google-play-color.svg"
                     alt="Google Play"
                   />
                 </a>
@@ -51,12 +51,12 @@
 
           <!-- Header cta -->
           <a href="https://play.google.com/store/apps/details?id=com.symptomed.symptomed" class="header__play-store">
-            <img src="<?=base_url()?>/public/public/assets/cta-google-play-color.svg" alt="Google Play" />
+            <img src="<?=base_url()?>/public/landing-page/public/assets/cta-google-play-color.svg" alt="Google Play" />
           </a>
 
           <!-- Burger menu -->
           <button type="button" class="header__burger-button">
-            <img src="<?=base_url()?>/public/public/assets/icon-burger-menu.svg" alt="Mobile menu button" />
+            <img src="<?=base_url()?>/public/landing-page/public/assets/icon-burger-menu.svg" alt="Mobile menu button" />
           </button>
         </div>
       </nav>
@@ -78,7 +78,7 @@
           </div>
           <img
             class="hero__img"
-            src="<?=base_url()?>/public/public/assets/hero-doctors.svg"
+            src="<?=base_url()?>/public/landing-page/public/assets/hero-doctors.svg"
             alt="Illustration doctors"
           />
         </div>
@@ -86,7 +86,7 @@
           <div class="hero__skew"></div>
           <img
             class="hero__img"
-            src="<?=base_url()?>/public/public/assets/hero-doctors.svg"
+            src="<?=base_url()?>/public/landing-page/public/assets/hero-doctors.svg"
             alt="Illustration doctors"
           />
         </div>
@@ -110,7 +110,7 @@
           </div>
           <div class="advantages__items">
             <article class="advantages__item">
-              <img src="<?=base_url()?>/public/public/assets/advantages-kecerdasan-buatan.svg" alt="" />
+              <img src="<?=base_url()?>/public/landing-page/public/assets/advantages-kecerdasan-buatan.svg" alt="" />
               <div>
                 <h3>Solusi inovatif dengan kecerdasan buatan</h3>
                 <p>
@@ -120,7 +120,7 @@
               </div>
             </article>
             <article class="advantages__item">
-              <img src="<?=base_url()?>/public/public/assets/advantages-kesehatan-cepat.svg" alt="" />
+              <img src="<?=base_url()?>/public/landing-page/public/assets/advantages-kesehatan-cepat.svg" alt="" />
               <div>
                 <h3>Tindakan <span>kesehatan cepat</span></h3>
                 <p>
@@ -130,7 +130,7 @@
               </div>
             </article>
             <article class="advantages__item">
-              <img src="<?=base_url()?>/public/public/assets/advantages-kualitas-pelayanan.svg" alt="" />
+              <img src="<?=base_url()?>/public/landing-page/public/assets/advantages-kualitas-pelayanan.svg" alt="" />
               <div>
                 <h3>Mengubah kualitas pelayanan kesehatan</h3>
                 <p>
@@ -147,7 +147,7 @@
       <section class="objectives">
         <div class="container objectives__container">
           <div class="objectives__copy">
-            <img src="<?=base_url()?>/public/public/assets/icon-quote-mark.svg" alt="" />
+            <img src="<?=base_url()?>/public/landing-page/public/assets/icon-quote-mark.svg" alt="" />
             <h2>Visi dan misi</h2>
           </div>
 
@@ -156,7 +156,7 @@
             <article class="objectives__vision">
               <h3>Visi</h3>
               <div>
-                <img src="<?=base_url()?>/public/public/assets/icon-quote-mark.svg" alt="" />
+                <img src="<?=base_url()?>/public/landing-page/public/assets/icon-quote-mark.svg" alt="" />
                 <p>
                   Menjadi platform kesehatan digital terpercaya dan efektif bagi
                   seluruh masyarakat Indonesia, dengan kemudahan akses serta
@@ -180,9 +180,9 @@
                       mudah
                     </h4>
                     <div class="accordion__icon">
-                      <img src="<?=base_url()?>/public/public/assets/icon-expand.svg" alt="Expand icon" />
+                      <img src="<?=base_url()?>/public/landing-page/public/assets/icon-expand.svg" alt="Expand icon" />
                       <!-- <img
-                        src="<?=base_url()?>/public/public/assets/icon-collapse.svg"
+                        src="<?=base_url()?>/public/landing-page/public/assets/icon-collapse.svg"
                         alt="Collapse icon"
                       /> -->
                     </div>
@@ -211,9 +211,9 @@
                       kesehatan
                     </h4>
                     <div class="accordion__icon">
-                      <img src="<?=base_url()?>/public/public/assets/icon-expand.svg" alt="Expand icon" />
+                      <img src="<?=base_url()?>/public/landing-page/public/assets/icon-expand.svg" alt="Expand icon" />
                       <!-- <img
-                        src="<?=base_url()?>/public/public/assets/icon-collapse.svg"
+                        src="<?=base_url()?>/public/landing-page/public/assets/icon-collapse.svg"
                         alt="Collapse icon"
                       /> -->
                     </div>
@@ -242,9 +242,9 @@
                       Menyediakan solusi yang efisien dan tepat waktu
                     </h4>
                     <div class="accordion__icon">
-                      <img src="<?=base_url()?>/public/public/assets/icon-expand.svg" alt="Expand icon" />
+                      <img src="<?=base_url()?>/public/landing-page/public/assets/icon-expand.svg" alt="Expand icon" />
                       <!-- <img
-                        src="<?=base_url()?>/public/public/assets/icon-collapse.svg"
+                        src="<?=base_url()?>/public/landing-page/public/assets/icon-collapse.svg"
                         alt="Collapse icon"
                       /> -->
                     </div>
@@ -271,9 +271,9 @@
                       menyeluruh
                     </h4>
                     <div class="accordion__icon">
-                      <img src="<?=base_url()?>/public/public/assets/icon-expand.svg" alt="Expand icon" />
+                      <img src="<?=base_url()?>/public/landing-page/public/assets/icon-expand.svg" alt="Expand icon" />
                       <!-- <img
-                        src="<?=base_url()?>/public/public/assets/icon-collapse.svg"
+                        src="<?=base_url()?>/public/landing-page/public/assets/icon-collapse.svg"
                         alt="Collapse icon"
                       /> -->
                     </div>
@@ -298,7 +298,7 @@
                     <h4 class="accordion__question">Edukasi kesehatan</h4>
                     <div class="accordion__icon">
                       <img
-                        src="<?=base_url()?>/public/public/assets/icon-expand.svg"
+                        src="<?=base_url()?>/public/landing-page/public/assets/icon-expand.svg"
                         alt="Accordion button icon"
                       />
                     </div>
@@ -322,9 +322,9 @@
                       Kemitraan dengan profesional kesehatan
                     </h4>
                     <div class="accordion__icon">
-                      <img src="<?=base_url()?>/public/public/assets/icon-expand.svg" alt="Expand icon" />
+                      <img src="<?=base_url()?>/public/landing-page/public/assets/icon-expand.svg" alt="Expand icon" />
                       <!-- <img
-                      src="<?=base_url()?>/public/public/assets/icon-collapse.svg"
+                      src="<?=base_url()?>/public/landing-page/public/assets/icon-collapse.svg"
                       alt="Collapse icon"
                     /> -->
                     </div>
@@ -355,7 +355,7 @@
             <!-- Feature 1 -->
             <article class="features__item">
               <img
-                src="<?=base_url()?>/public/public/assets/features-prediksi-gejala-penyakit.svg"
+                src="<?=base_url()?>/public/landing-page/public/assets/features-prediksi-gejala-penyakit.svg"
                 alt=""
               />
               <div>
@@ -369,7 +369,7 @@
 
             <!-- Feature 2 -->
             <article class="features__item">
-              <img src="<?=base_url()?>/public/public/assets/features-konsultasi-medis.svg" alt="" />
+              <img src="<?=base_url()?>/public/landing-page/public/assets/features-konsultasi-medis.svg" alt="" />
               <div>
                 <h3>Konsultasi medis</h3>
                 <p>
@@ -380,7 +380,7 @@
 
             <!-- Feature 3 -->
             <article class="features__item">
-              <img src="<?=base_url()?>/public/public/assets/features-forum-diskusi.svg" alt="" />
+              <img src="<?=base_url()?>/public/landing-page/public/assets/features-forum-diskusi.svg" alt="" />
               <div>
                 <h3>Forum diskusi penyakit</h3>
                 <p>
@@ -392,7 +392,7 @@
 
             <!-- Feature 4 -->
             <article class="features__item">
-              <img src="<?=base_url()?>/public/public/assets/features-pusat-kesehatan-cepat.svg" alt="" />
+              <img src="<?=base_url()?>/public/landing-page/public/assets/features-pusat-kesehatan-cepat.svg" alt="" />
               <div>
                 <h3>Pusat kesehatan cepat</h3>
                 <p>
@@ -404,7 +404,7 @@
 
             <!-- Feature 5 -->
             <article class="features__item">
-              <img src="<?=base_url()?>/public/public/assets/features-penunjang-kesehatan.svg" alt="" />
+              <img src="<?=base_url()?>/public/landing-page/public/assets/features-penunjang-kesehatan.svg" alt="" />
               <div>
                 <h3>Penunjang kesehatan</h3>
                 <p>
@@ -416,7 +416,7 @@
 
             <!-- Feature 6 -->
             <article class="features__item">
-              <img src="<?=base_url()?>/public/public/assets/features-media-edukasi.svg" alt="" />
+              <img src="<?=base_url()?>/public/landing-page/public/assets/features-media-edukasi.svg" alt="" />
               <div>
                 <h3>Media edukasi</h3>
                 <p>
@@ -512,7 +512,7 @@
                   <span>CEO & ML RESEARCHER</span>
                   <p>Rio Bastian</p>
                 </div>
-                <img src="<?=base_url()?>/public/public/assets/Rio.png" alt="Rio Bastian" />
+                <img src="<?=base_url()?>/public/landing-page/public/assets/Rio.png" alt="Rio Bastian" />
               </div>
 
               <!-- Team staff 2 -->
@@ -521,7 +521,7 @@
                   <span>COO & ML RESEARCHER</span>
                   <p>Anugrah Cahya Kautsar</p>
                 </div>
-                <img src="<?=base_url()?>/public/public/assets/Anu.png" alt="Anugrah Cahya Kautsar" />
+                <img src="<?=base_url()?>/public/landing-page/public/assets/Anu.png" alt="Anugrah Cahya Kautsar" />
               </div>
 
               <!-- Team staff 3 -->
@@ -530,7 +530,7 @@
                   <span>CTO & ML RESEARCHER</span>
                   <p>Fauzan Nauvally R.M.</p>
                 </div>
-                <img src="<?=base_url()?>/public/public/assets/Fauzan.png" alt="Fauzan Nauvally Rizky Muhamad" />
+                <img src="<?=base_url()?>/public/landing-page/public/assets/Fauzan.png" alt="Fauzan Nauvally Rizky Muhamad" />
               </div>
 
               <!-- Team staff 4 -->
@@ -539,7 +539,7 @@
                   <span>CLO & MOBILE DEVELOPER</span>
                   <p>Arizona Adi Pradana</p>
                 </div>
-                <img src="<?=base_url()?>/public/public/assets/Ari.png" alt="Arizona Adi Pradana" />
+                <img src="<?=base_url()?>/public/landing-page/public/assets/Ari.png" alt="Arizona Adi Pradana" />
               </div>
 
               <!-- Team staff 5 -->
@@ -548,7 +548,7 @@
                   <span>CMO & CLOUD COMPUTING</span>
                   <p>Ilmi Fatha Nur Ihsan</p>
                 </div>
-                <img src="<?=base_url()?>/public/public/assets/Ilmi.png" alt="Ilmi Fatha Nur Ihsan" />
+                <img src="<?=base_url()?>/public/landing-page/public/assets/Ilmi.png" alt="Ilmi Fatha Nur Ihsan" />
               </div>
 
               <!-- Team staff 6 -->
@@ -557,7 +557,7 @@
                   <span>CFO & CLOUD COMPUTING</span>
                   <p>Jhonson Saputra</p>
                 </div>
-                <img src="<?=base_url()?>/public/public/assets/Joni.png" alt="Jhonson Saputra" />
+                <img src="<?=base_url()?>/public/landing-page/public/assets/Joni.png" alt="Jhonson Saputra" />
               </div>
             </div>
           </div>
@@ -565,7 +565,7 @@
           <div class="people team__doctors">
             <!-- Team doctor 1 -->
             <div class="people__person">
-              <img src="<?=base_url()?>/public/public/assets/arizki.png" alt="Arizki Putra Rahman" />
+              <img src="<?=base_url()?>/public/landing-page/public/assets/arizki.png" alt="Arizki Putra Rahman" />
               <div class="people__person-info">
                 <h3>Arizki Putra Rahman</h3>
                 <span>Back-End Engineer</span>
@@ -574,7 +574,7 @@
 
             <!-- Team doctor 2 -->
             <div class="people__person">
-              <img src="<?=base_url()?>/public/public/assets/alip.png" alt="Alif Maulidanar" />
+              <img src="<?=base_url()?>/public/landing-page/public/assets/alip.png" alt="Alif Maulidanar" />
               <div class="people__person-info">
                 <h3>Alif Maulidanar</h3>
                 <span>Back-End Engineer</span>
@@ -583,7 +583,7 @@
 
             <!-- Team doctor 3 -->
             <div class="people__person">
-              <img src="<?=base_url()?>/public/public/assets/rama.png" alt="Ramadhana Noor" />
+              <img src="<?=base_url()?>/public/landing-page/public/assets/rama.png" alt="Ramadhana Noor" />
               <div class="people__person-info">
                 <h3>Ramadhana Noor S.W.</h3>
                 <span>ML Researcher</span>
@@ -592,7 +592,7 @@
 
             <!-- Team doctor 4 -->
             <div class="people__person">
-              <img src="<?=base_url()?>/public/public/assets/fariz.png" alt="Fariz Hustha" />
+              <img src="<?=base_url()?>/public/landing-page/public/assets/fariz.png" alt="Fariz Hustha" />
               <div class="people__person-info">
                 <h3>Fariz Hustha</h3> 
                 <span>Mobile Developer</span>
@@ -601,7 +601,7 @@
 
             <!-- Team doctor 5 -->
             <div class="people__person">
-              <img src="<?=base_url()?>/public/public/assets/bintang.png" alt="M.Bintang Khadafi" />
+              <img src="<?=base_url()?>/public/landing-page/public/assets/bintang.png" alt="M.Bintang Khadafi" />
               <div class="people__person-info">
                 <h3>M. Bintang Khadafi</h3>
                 <span>Mobile Developer</span>
@@ -611,7 +611,7 @@
 
             <!-- Team doctor 6 -->
             <div class="people__person">
-              <img src="<?=base_url()?>/public/public/assets/pincen.png" alt="Vinsensius Adrian" />
+              <img src="<?=base_url()?>/public/landing-page/public/assets/pincen.png" alt="Vinsensius Adrian" />
               <div class="people__person-info">
                 <h3>Vinsensius Adrian</h3>
                 <span>Mobile Developer</span>
@@ -620,7 +620,7 @@
 
             <!-- Team doctor 7 -->
             <div class="people__person">
-              <img src="<?=base_url()?>/public/public/assets/Nadia.png" alt="Nadia Sahda C." />
+              <img src="<?=base_url()?>/public/landing-page/public/assets/Nadia.png" alt="Nadia Sahda C." />
               <div class="people__person-info">
                 <h3>Nadia Sahda C.</h3>
                 <span>Marketing & Social Media</span>
@@ -629,7 +629,7 @@
 
             <!-- Team doctor 8 -->
             <div class="people__person">
-              <img src="<?=base_url()?>/public/public/assets/nisa.png" alt="Nisa Ulayya M." />
+              <img src="<?=base_url()?>/public/landing-page/public/assets/nisa.png" alt="Nisa Ulayya M." />
               <div class="people__person-info">
                 <h3>Nisa Ulayya M.</h3>
                 <span>Marketing & Social Media</span>
@@ -638,7 +638,7 @@
 
             <!-- Team doctor 9 -->
             <div class="people__person">
-              <img src="<?=base_url()?>/public/public/assets/nurul.png" alt="Nurul Salsabila" />
+              <img src="<?=base_url()?>/public/landing-page/public/assets/nurul.png" alt="Nurul Salsabila" />
               <div class="people__person-info">
                 <h3>Nurul Salsabila</h3>
                 <span>Marketing & Social Media</span>
@@ -647,7 +647,7 @@
 
             <!-- Team doctor 10 -->
             <div class="people__person">
-              <img src="<?=base_url()?>/public/public/assets/tasya.png" alt="Tasya Puspita A." />
+              <img src="<?=base_url()?>/public/landing-page/public/assets/tasya.png" alt="Tasya Puspita A." />
               <div class="people__person-info">
                 <h3>Tasya Puspa A.</h3>
                 <span>Marketing & Social Media</span>
@@ -667,7 +667,7 @@
           <div class="people supportedBy__supporters">
             <!-- Supporter 1 -->
             <div class="people__person">
-              <img src="<?=base_url()?>/public/public/assets/pak_guntur.png" alt="Guntur Eka Saputra" />
+              <img src="<?=base_url()?>/public/landing-page/public/assets/pak_guntur.png" alt="Guntur Eka Saputra" />
               <div class="people__person-info">
                 <h3>Guntur Eka Saputra</h3>
                 <span>Dosen Advisor</span>
@@ -676,7 +676,7 @@
 
             <!-- Supporter 2 -->
             <div class="people__person">
-              <img src="<?=base_url()?>/public/public/assets/kak_ara.png" alt="Mutiara Arumsari" />
+              <img src="<?=base_url()?>/public/landing-page/public/assets/kak_ara.png" alt="Mutiara Arumsari" />
               <div class="people__person-info">
                 <h3>Mutiara Arumasri</h3>
                 <span>Mentor & Advisor Bangkit</span>
@@ -685,7 +685,7 @@
 
             <!-- Supporter 3 -->
             <div class="people__person">
-              <img src="<?=base_url()?>/public/public/assets/dr_evi.png" alt="Evi Maryam" />
+              <img src="<?=base_url()?>/public/landing-page/public/assets/dr_evi.png" alt="Evi Maryam" />
               <div class="people__person-info">
                 <h3>Evi Maryam</h3>
                 <span>Health Advisor</span>
@@ -694,7 +694,7 @@
 
             <!-- Supporter 4 -->
             <div class="people__person">
-              <img src="<?=base_url()?>/public/public/assets/bu_dinik.png" alt="Dinik Fitri R.P." />
+              <img src="<?=base_url()?>/public/landing-page/public/assets/bu_dinik.png" alt="Dinik Fitri R.P." />
               <div class="people__person-info">
                 <h3>Dinik Fitri Rahajeng P.</h3>
                 <span>Business Advisor</span>
@@ -703,7 +703,7 @@
 
             <!-- Supporter 5 -->
             <div class="people__person">
-              <img src="<?=base_url()?>/public/public/assets/pak_kevin.png" alt="Niki Zefanya" />
+              <img src="<?=base_url()?>/public/landing-page/public/assets/pak_kevin.png" alt="Niki Zefanya" />
               <div class="people__person-info">
                 <h3>Kevin Filmawan</h3>
                 <span>Tech Advisor</span>
@@ -724,7 +724,7 @@
             </p>
             <a href="https://play.google.com/store/apps/details?id=com.symptomed.symptomed">
               <img
-                src="<?=base_url()?>/public/public/assets/cta-google-play-color.svg"
+                src="<?=base_url()?>/public/landing-page/public/assets/cta-google-play-color.svg"
                 alt="Get on Google Play icon"
               />
             </a>
@@ -732,7 +732,7 @@
         </div>
         <div class="cta__app-preview">
           <img
-            src="<?=base_url()?>/public/public/assets/cta-mobile-app-preview.png"
+            src="<?=base_url()?>/public/landing-page/public/assets/cta-mobile-app-preview.png"
             alt="SymptoMed mobile app preview"
           />
         </div>
@@ -751,7 +751,7 @@
       <div class="container footer__container">
         <div class="footer__company">
           <img
-            src="<?=base_url()?>/public/public/assets/logo-company.png"
+            src="<?=base_url()?>/public/landing-page/public/assets/logo-company.png"
             alt="SymptoMed logo"
             class="footer__logo"
           />
@@ -763,14 +763,14 @@
             <p>Didukung oleh:</p>
             <ul>
               <li>
-                <img src="<?=base_url()?>/public/public/assets/logo-bangkit.png" alt="Bangkit logo" />
+                <img src="<?=base_url()?>/public/landing-page/public/assets/logo-bangkit.png" alt="Bangkit logo" />
               </li>
               <li>
-                <img src="<?=base_url()?>/public/public/assets/logo-google.png" alt="Google logo" />
+                <img src="<?=base_url()?>/public/landing-page/public/assets/logo-google.png" alt="Google logo" />
               </li>
               <li>
                 <img
-                  src="<?=base_url()?>/public/public/assets/logo-ristekdikti.png"
+                  src="<?=base_url()?>/public/landing-page/public/assets/logo-ristekdikti.png"
                   alt="Ristekdikti logo"
                 />
               </li>
@@ -836,7 +836,7 @@
       </div>
     </footer>
 
-    <script src="<?=base_url()?>/public/public/app/js/index.js"></script>
+    <script src="<?=base_url()?>/public/landing-page/public/app/js/index.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
   </body>
 </html>
